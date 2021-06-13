@@ -1,6 +1,5 @@
-def hello():
-  print('Howdy!')
-  print('Howdy!!')
-  print('Hello there.')
+def hello(name):
+  print('Hello ' + name)
 
-hello()
+hello('Srikar')
+hello('John Doe')
